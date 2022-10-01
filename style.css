@@ -84,3 +84,15 @@ body {
     letter-spacing: 4px;
     margin: 16px 0;
 }
+
+/* media query for mobile design */
+@media (max-width: 750px) {
+    .main-container {
+        width: 320px;
+        height: 400px;
+    }
+
+    .btn-submit {
+        height: 44px;
+    }
+}
