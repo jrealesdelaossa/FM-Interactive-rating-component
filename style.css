@@ -114,3 +114,51 @@ body {
     background-color: var(--Medium-Grey);
     color: var(--White);
 }
+
+/* style for thank page */
+
+.main-container-thank {
+    width: 360px;
+    height: 360px;
+    background: #1E252F;
+    border: none;
+    border-radius: 20px;
+    margin: 0;
+    padding: 28px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.main-container-thank img {
+    margin: auto;
+}
+
+.main-container-thank span {
+    background-color: var(--Dark-Blue);
+    margin: auto;
+    padding: 8px 16px;
+    color: var(--Orange);
+    border: none;
+    border-radius: 20px;
+}
+
+.main-container-thank h1 {
+    color: var(--White);
+    font-weight: 700;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.main-container-thank p {
+    color: var(--Light-Grey);
+    font-size: var(--Font-size);
+    margin: 0 0 16px 0;
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    .main-container-thank {
+        width: 320px;
+        height: 400px;
+    }
+}
