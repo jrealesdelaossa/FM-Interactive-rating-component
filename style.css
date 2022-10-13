@@ -69,6 +69,12 @@ body {
     color: var(--Light-Grey);
     font-size: var(--Font-size);
     font-weight: 700;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--Orange);
+    color: var(--White);
 }
 
 .btn-submit {
@@ -83,6 +89,12 @@ body {
     font-weight: 700;
     letter-spacing: 4px;
     margin: 16px 0;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: var(--White);
+    color: var(--Orange);
 }
 
 /* media query for mobile design */
@@ -95,4 +107,10 @@ body {
     .btn-submit {
         height: 44px;
     }
+}
+
+/* style for button selected */
+.btn-select {
+    background-color: var(--Medium-Grey);
+    color: var(--White);
 }
